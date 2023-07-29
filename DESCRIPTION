@@ -1,0 +1,15 @@
+Package: RHigh
+Title: RHigh is an R Package to Facilitate High School Statistics Education
+Version: 0.0.0.9000
+Authors@R: 
+    person("Michael", "Lomuscio", , "lomuscio.michael@gmail.com", role = c("aut", "cre"))
+Description: RHigh is a user-friendly R package designed to empower high school statistics teachers to use R with their students. It provides a set of tools that closely mimic those commonly found on scientific calculators, facilitating an easier transition to utilizing R in the classroom. The package aims to make statistical analysis more accessible and engaging for high school students, promoting a deeper understanding of statistical concepts and their authentic applications.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    tibble, 
+    dplyr,
+    stats
+  
