@@ -14,7 +14,7 @@ Right now, the package contains functions that generate basic confidence interva
 
 Below are the current functions that are available in the package.
 * Confidence intervals
-  * One proportion z interval
+  * [One proportion z interval](#one-proportion-z-interval)
   * Two proportion z interval
   * T interval
   * Two sample t interval
