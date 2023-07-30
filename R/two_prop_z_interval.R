@@ -6,9 +6,9 @@
 #' The width of the confidence interval gives an idea of how uncertain we are about the unknown difference.
 #' A wider interval implies more uncertainty. The function assumes that the data follows a binomial
 #' distribution and that the samples are independent and random.
-#' @param x1 The number of observed success in sample 1.
+#' @param x1 The number of observed successes in sample 1.
 #' @param n1 The size of sample 1.
-#' @param x2 The number of observed success in sample2.
+#' @param x2 The number of observed successes in sample 2.
 #' @param n2 The size of sample 2.
 #' @param confidence_level The confidence level for the interval, often 0.95 is used.
 #' @return A list containing the lower and upper bounds of the confidence interval.
