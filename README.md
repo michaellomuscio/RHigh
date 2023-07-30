@@ -127,4 +127,59 @@ The function returns a list containing the lower and upper bounds of the confide
 **Example**
 
 `two_sample_t_interval(c(1,2,3,4,5), c(2,4,6,8,10), 0.95)`
+
+## One proportion z test
+
+Performs a One Proportion Z-Test
+
+This function implements a One Proportion Z-Test, a statistical hypothesis test used to determine
+whether the proportion of successes in a single sample differs significantly from a hypothesized
+population proportion. The test assumes that the data follows a binomial distribution and that the
+sample is random. The function calculates the test statistic and the p-value. The test statistic
+follows a standard normal distribution under the null hypothesis. The p-value represents the
+probability that a z-statistic as extreme as the observed one could occur by chance if the null
+hypothesis were true.
+
+**Parameters**
+
+`one_prop_z_test(x, n, p0, confidence_level)`
+
+* `x` The number of observed success in the sample.
+* `n` The size of the sample.
+* `p0` The hypothesized population proportion.
+* `alternative` The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+
+The function returns a list containing the test statistic and the p-value.
+
+**Example**
+
+`one_prop_z_test(5, 10, 0.5, "not_equal")`
+
+## Two proportion z test
+
+Performs a Two Proportion Z-Test
+
+This function implements a Two Proportion Z-Test, a statistical hypothesis test used to determine
+whether the proportions of successes in two independent samples differ significantly. The test
+assumes that the data follows a binomial distribution and that the samples are independent and random.
+The function calculates the test statistic and the p-value. The test statistic follows a standard
+normal distribution under the null hypothesis. The p-value represents the probability that a
+z-statistic as extreme as the observed one could occur by chance if the null hypothesis were true.
+
+
+**Parameters**
+
+`two_prop_z_test(x1, n1, x2, n2, alternative)`
+
+* `x1` The number of observed successes in the sample 1.
+* `n1` The size of the sample 1.
+* `x2` The number of observed successes in the sample 2.
+* `n2` The size of the sample 2.
+* `alternative` The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+
+The function returns a list containing the test statistic and the p-value.
+
+**Example**
+
+`two_prop_z_test(5, 10, 50, 100, "not_equal")`
   
