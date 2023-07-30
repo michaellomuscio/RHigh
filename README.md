@@ -16,7 +16,7 @@ Below are the current functions that are available in the package.
 * Confidence intervals
   * One proportion z interval
   * Two proportion z interval
-  * t interval
+  * T interval
   * Two sample t interval
 * Hypothesis tests
   * One proportion z-test
@@ -24,4 +24,31 @@ Below are the current functions that are available in the package.
   * One sample t-test
   * Two sample t-test
   * Chi-square test of independence
+ 
+Please email me at lomuscio.michael@gmail.com with any suggestions for functions I should include. 
+
+# Examples
+
+## One proportion z interval
+
+Computes a One Proportion Z-Interval
+
+This function calculates a confidence interval for a population proportion using a z-distribution.
+The confidence interval provides a range of plausible values for the population proportion based on
+the proportion observed in a sample. The width of the confidence interval gives an idea of how
+uncertain we are about the unknown population proportion. A wider interval implies more uncertainty.
+The function assumes that the data follows a binomial distribution and that the sample is random.
+
+**Parameters**
+one_prop_z_interval(x, n, confidence_level)
+
+`x` The number of observed success in the sample.
+`n` The size of the sample.
+`confidence_level` The confidence level for the interval, often 0.95 is used.
+
+The function returns a list containing the lower and upper bounds of the confidence interval.
+
+**Example**
+one_prop_z_interval(5, 10, 0.95)
+
   
