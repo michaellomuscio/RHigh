@@ -10,7 +10,7 @@
 #'
 #' @param variable1 A numeric vector of data values for the first sample.
 #' @param variable2 A numeric vector of data values for the second sample.
-#' @param alternative The the direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+#' @param alternative The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
 #' @return A list containing the test statistic and the p-value.
 #' @examples
 #' \dontrun{
