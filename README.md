@@ -11,7 +11,7 @@ I have used this package with high school students in on-level statistics, AP St
 # How to install the package
 I am working on getting the package added to CRAN. In the meantime, you can use the package by downloading the package file ____ and then directly installing and loading it in R. Here are the steps broken down.
 1. Download this file [RHigh_0.0.0.9000.tar](https://github.com/michaellomuscio/RHigh/blob/main/RHigh_0.0.0.9000.tar.gz)
-2. In R, run this command to install the package `install.packages("path-to-where-you-saved-the-file/RHigh_0.0.0.9000.tar.gz", repos = NULL)`
+2. In R, run this command to install the package `install.packages("path-to-saved-file/RHigh_0.0.0.9000.tar.gz", repos = NULL)`
 3. In R, run this command to load the package `library(RHigh)`
 
 Once you follow these steps, the package will be loaded, and you can begin calling and utilizing the RHigh functions.
