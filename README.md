@@ -1,4 +1,6 @@
-<center><img src="https://github.com/michaellomuscio/RHigh/assets/49921701/00fafcbe-5c6f-42fc-9348-ac535ab3b198" alt="RHigh" width="200"/></center>
+<p style="text-align: center;">
+<img src="https://github.com/michaellomuscio/RHigh/assets/49921701/00fafcbe-5c6f-42fc-9348-ac535ab3b198" alt="RHigh" width="200"/>
+</p>
 
 # RHigh
 RHigh is an R package designed for high school statistics teachers. It mimics scientific calculator tools to simplify the transition to using R in class. The package makes statistical analysis engaging and accessible for students, enhancing their understanding of statistics and its practical uses.
