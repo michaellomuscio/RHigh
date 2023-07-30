@@ -14,13 +14,14 @@ Right now, the package contains functions that generate basic confidence interva
 
 Below are the current functions that are available in the package.
 * Confidence intervals
-** One proportion z interval
-** Two proportion z interval
-* t interval
-* Two sample t interval
-* One proportion z-test
-* Two proportion z-test
-* One sample t-test
-* Two sample t-test
-* Chi-square test of inependence
+  * One proportion z interval
+  * Two proportion z interval
+  * t interval
+  * Two sample t interval
+* Hypothesis tests
+  * One proportion z-test
+  * Two proportion z-test
+  * One sample t-test
+  * Two sample t-test
+  * Chi-square test of independence
   
