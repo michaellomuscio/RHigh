@@ -1,4 +1,4 @@
-
+<img src="https://github.com/michaellomuscio/RHigh/assets/49921701/00fafcbe-5c6f-42fc-9348-ac535ab3b198" alt="RHigh" width="200"/>
 ![RHigh](https://github.com/michaellomuscio/RHigh/assets/49921701/00fafcbe-5c6f-42fc-9348-ac535ab3b198)
 
 # RHigh
