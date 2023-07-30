@@ -9,7 +9,7 @@
 #'
 #' @param variable1 A numeric vector of data values.
 #' @param mu0 The hypothesized population mean.
-#' @param alternative The the direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+#' @param alternative The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
 #' @return A list containing the test statistic and the p-value.
 #' @examples
 #' \dontrun{
