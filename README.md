@@ -16,11 +16,11 @@ Below are the current functions that are available in the package.
 * Confidence intervals
   * [One proportion z interval](#one-proportion-z-interval)
   * [Two proportion z interval](#two-proportion-z-interval)
-  * [T interval](#t-inverval)
+  * [T interval](#t-interval)
   * [Two sample t interval](#two-sample-t-interval)
 * Hypothesis tests
-  * [One proportion z test](#one-proportion-z-interval)
-  * [Two proportion z test](#two-proportion-z-interval)
+  * [One proportion z test](#one-proportion-z-test)
+  * [Two proportion z test](#two-proportion-z-test)
   * [One sample t test](#t-test)
   * [Two sample t test](#two-sample-t-test)
   * [Chi-Square test of independence](#chi-square-test-for-independence)
