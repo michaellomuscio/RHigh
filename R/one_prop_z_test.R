@@ -8,10 +8,10 @@
 #' probability that a z-statistic as extreme as the observed one could occur by chance if the null
 #' hypothesis were true.
 #'
-#' @param x The number of observed success in the sample.
+#' @param x The number of observed successes in the sample.
 #' @param n The size of the sample.
 #' @param p0 The hypothesized population proportion.
-#' @param alternative The the direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+#' @param alternative The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
 #' @return A list containing the test statistic and the p-value.
 #' @examples
 #' \dontrun{
