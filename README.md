@@ -43,7 +43,7 @@ The function assumes that the data follows a binomial distribution and that the 
 
 `one_prop_z_interval(x, n, confidence_level)`
 
-* `x` The number of observed success in the sample.
+* `x` The number of observed successes in the sample.
 * `n` The size of the sample.
 * `confidence_level` The confidence level for the interval, often 0.95 is used.
 
@@ -66,7 +66,7 @@ distribution and that the samples are independent and random.
 
 **Parameters**
 
-`two_prop_z_interval(x1, n1, x2, n2, 0.95)`
+`two_prop_z_interval(x1, n1, x2, n2, confidence_level)`
 
 * `x1` The number of observed successes in sample 1.
 * `n1` The size of sample 1.
@@ -79,4 +79,52 @@ The function returns a list containing the lower and upper bounds of the confide
 **Example**
 
 `two_prop_z_interval(5, 10, 50, 100, 0.95)`
+
+## T interval
+
+Computes a One Sample T-Interval
+
+This function calculates a confidence interval for a population mean using a t-distribution. The
+confidence interval provides a range of plausible values for the population mean based on the mean
+observed in a single sample. The width of the confidence interval gives an idea of how uncertain we
+are about the unknown population mean. A wider interval implies more uncertainty. The
+function assumes that the data follows a normal distribution and that the sample is random.
+
+**Parameters**
+
+`t_interval(variable1, confidence_level)`
+
+* `variable1` A numeric vector of data values.
+* `confidence_level` The confidence level for the interval, often 0.95 is used.
+
+The function returns a list containing the lower and upper bounds of the confidence interval.
+
+**Example**
+
+`t_interval(c(1,2,3,4,5), 0.95)`
+
+## Two sample t interval
+
+Computes a Two Sample T-Interval
+
+This function calculates a confidence interval for the difference between two population means
+using a t-distribution. The confidence interval provides a range of plausible values for the
+difference between two population means based on the means observed in two independent samples.
+The width of the confidence interval gives an idea of how uncertain we are about the unknown difference.
+A wider interval implies more uncertainty. The function assumes that the data follows a normal
+distribution and that the samples are independent and random.
+
+**Parameters**
+
+`two_sample_t_interval(variable1, variable2, confidence_leve)`
+
+* `variable1` A numeric vector of data values for the first sample.
+* `variable2` A numeric vector of data values for the second sample.
+* `confidence_level` The confidence level for the interval, often 0.95 is used.
+
+The function returns a list containing the lower and upper bounds of the confidence interval.
+
+**Example**
+
+`two_sample_t_interval(c(1,2,3,4,5), c(2,4,6,8,10), 0.95)`
   
