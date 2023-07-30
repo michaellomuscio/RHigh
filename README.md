@@ -41,7 +41,7 @@ The function assumes that the data follows a binomial distribution and that the 
 
 **Parameters**
 
-one_prop_z_interval(x, n, confidence_level)
+*one_prop_z_interval(x, n, confidence_level)*
 
 * `x` The number of observed success in the sample.
 * `n` The size of the sample.
