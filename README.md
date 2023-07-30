@@ -15,15 +15,15 @@ Right now, the package contains functions that generate basic confidence interva
 Below are the current functions that are available in the package.
 * Confidence intervals
   * [One proportion z interval](#one-proportion-z-interval)
-  * Two proportion z interval
-  * T interval
-  * Two sample t interval
+  * [Two proportion z interval](#two-proportion-z-interval)
+  * [T interval](#t-inverval)
+  * [Two sample t interval](#two-sample-t-interval)
 * Hypothesis tests
-  * One proportion z-test
-  * Two proportion z-test
-  * One sample t-test
-  * Two sample t-test
-  * Chi-square test of independence
+  * [One proportion z test](#one-proportion-z-interval)
+  * [Two proportion z test](#two-proportion-z-interval)
+  * [One sample t test](#t-test)
+  * [Two sample t test](#two-sample-t-test)
+  * [Chi-Square test of independence](#chi-square-test-for-independence)
  
 Please email me at lomuscio.michael@gmail.com with any suggestions for functions I should include. 
 
@@ -236,7 +236,7 @@ The function returns a list containing the test statistic and the p-value.
 
 `two_sample_t_test(c(1,2,3,4,5,6,7,8,9,10), c(2,4,6,8,10), "not_equal")`
 
-## Chi square test for independence
+## Chi-Square test for independence
 
 Performs a Chi Square Test for Independence
 
