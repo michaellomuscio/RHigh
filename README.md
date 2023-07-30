@@ -8,6 +8,14 @@ One barrier to using R in high school is the increased complexity of R compared 
 
 I have used this package with high school students in on-level statistics, AP Statistics, Data Science, and Introduction to Machine Learning courses. After a brief introduction to R, they were able to navigate it quite well. The simplicity of the structure of the RHigh functions helped make the transition to using R in the classroom relatively smooth.
 
+# How to install the package
+I am working on getting the package added to CRAN. In the meantime, you can use the package by downloading the package file ____ and then directly installing and loading it in R. Here are the steps broken down.
+1. Download this file RHigh_0.0.0.9000.tar
+2. In R, run this command to install the package `install.packages("path-to-where-you-saved-the-file/RHigh_0.0.0.9000.tar.gz", repos = NULL)`
+3. In R, run this command to load the package `library(RHigh)`
+
+Once you follow these steps, the package will be loaded, and you can begin calling and utilizing the RHigh functions.
+
 # What functions are currently in the RHigh package?
 
 Right now, the package contains functions that generate basic confidence intervals and perform basic hypothesis tests. I will continue to add more functions, and any suggestions or collaboration are welcome.
