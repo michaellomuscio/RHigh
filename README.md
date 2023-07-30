@@ -1,2 +1,7 @@
 # RHigh
 RHigh is an R package designed for high school statistics teachers. It mimics scientific calculator tools to simplify the transition to using R in class. The package makes statistical analysis engaging and accessible for students, enhancing their understanding of statistics and its practical uses.
+
+# Why I am building this
+With the rise of Data Science, Machine Learning, and Artificial Intelligence, we need to rethink how we approach high school statistics courses. Scientific calculators are expensive, cumbersome, unable to handle large datasets, and not used in academia or industry beyond high school. Researchers engage with data and utilize statistical tools using R, Python, or other powerful languages/tools. R has become easy to use and is now accessible to high school students with internet access. Giving students access to R in high school empowers them to explore real-world datasets while learning an increasingly popular tool. 
+
+One barrier to using R in high school is the increased complexity of R compared to popular scientific calculators. This package, RHigh, aims to remove that challenge by offering statistical functions that take on the same form as those commonly found on scientific calculators. The inputs and usage are similar. This allows teachers who are familiar with the statistical functions on scientific calculators to easily transition their curriculum to utilizing R. It also means that statistics textbooks that are written with common scientific calculators in mind will still be effectively usable.
