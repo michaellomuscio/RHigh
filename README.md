@@ -182,4 +182,86 @@ The function returns a list containing the test statistic and the p-value.
 **Example**
 
 `two_prop_z_test(5, 10, 50, 100, "not_equal")`
+
+## T test
+
+Performs a One Sample T-Test
+
+This function implements a One Sample T-Test, which is a statistical hypothesis test used to
+determine whether the mean of a sample differs significantly from a hypothesized population mean.
+The test assumes that the data follows a normal distribution and that the sample is random.
+The function calculates the test statistic and the p-value. The test statistic follows a t-distribution
+under the null hypothesis. The p-value represents the probability that a t-statistic as extreme as the
+observed one could occur by chance if the null hypothesis were true.
+
+
+**Parameters**
+
+`t_test(variable1, mu0, alternative)`
+
+* `variable1` A numeric vector of data values.
+* `mu0` The hypothesized population mean.
+* `alternative` The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+
+The function returns a list containing the test statistic and the p-value.
+
+**Example**
+
+`t_test(c(1,2,3,4,5,6,7,8,9,10), 5, "not_equal")`
+
+## Two sample t test
+
+Performs a Two Sample T-Test
+
+This function implements a Two Sample T-Test, a statistical hypothesis test used to determine
+whether the means of two independent samples differ significantly. It tests the null hypothesis
+that the two populations have identical mean values. The test assumes that the data follows a
+normal distribution and that the samples are independent and random. The function calculates the
+test statistic and the p-value. The test statistic follows a t-distribution under the null hypothesis.
+The p-value represents the probability that a t-statistic as extreme as the observed one could occur
+by chance if the null hypothesis were true.
+
+
+**Parameters**
+
+`two_sample_t_test(variable1, variable2, alternative)`
+
+* `variable1` A numeric vector of data values for the first sample.
+* `variable2` A numeric vector of data values for the second sample.
+* `alternative` The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+
+The function returns a list containing the test statistic and the p-value.
+
+**Example**
+
+`two_sample_t_test(c(1,2,3,4,5,6,7,8,9,10), c(2,4,6,8,10), "not_equal")`
+
+## Chi square test for independence
+
+Performs a Chi Square Test for Independence
+
+This function implements a Chi Square Test for Independence, a statistical hypothesis test used to
+determine whether there is a significant association between two categorical variables in a sample.
+The test compares the observed distribution of frequencies in the sample with the distribution that
+would be expected if the variables were independent. The function calculates the test statistic and
+the p-value. The test statistic follows a chi square distribution under the null hypothesis. The
+p-value represents the probability that a chi square statistic as extreme as the observed one could
+occur by chance if the null hypothesis were true.
+
+
+**Parameters**
+
+`chi_sq_independence(dataSet$variable1, dataSet$variable2)`
+
+* `variable1` The first categorical variable.
+* `variable2` The second categorical variable.
+
+**Note** that variable1 and variable2 need to come from the same dataset.
+
+
+The function returns a list containing the test statistic, the degrees of freedom, the p-value, a table of observed values, and a table of expected values.
+
+**Example**
+
+`chi_sq_independence(dataSet$variable1, dataSet$variable2)`
   
