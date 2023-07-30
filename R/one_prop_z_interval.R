@@ -5,7 +5,7 @@
 #' the proportion observed in a sample. The width of the confidence interval gives an idea of how
 #' uncertain we are about the unknown population proportion. A wider interval implies more uncertainty.
 #' The function assumes that the data follows a binomial distribution and that the sample is random.
-#' @param x The number of observed success in the sample.
+#' @param x The number of observed successes in the sample.
 #' @param n The size of the sample.
 #' @param confidence_level The confidence level for the interval, often 0.95 is used.
 #' @return A list containing the lower and upper bounds of the confidence interval.
