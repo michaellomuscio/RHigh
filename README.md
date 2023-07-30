@@ -40,15 +40,17 @@ uncertain we are about the unknown population proportion. A wider interval impli
 The function assumes that the data follows a binomial distribution and that the sample is random.
 
 **Parameters**
+
 one_prop_z_interval(x, n, confidence_level)
 
-`x` The number of observed success in the sample.
-`n` The size of the sample.
-`confidence_level` The confidence level for the interval, often 0.95 is used.
+* `x` The number of observed success in the sample.
+* `n` The size of the sample.
+* `confidence_level` The confidence level for the interval, often 0.95 is used.
 
 The function returns a list containing the lower and upper bounds of the confidence interval.
 
 **Example**
+
 one_prop_z_interval(5, 10, 0.95)
 
   
