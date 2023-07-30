@@ -7,15 +7,15 @@
 #' normal distribution under the null hypothesis. The p-value represents the probability that a
 #' z-statistic as extreme as the observed one could occur by chance if the null hypothesis were true.
 #'
-#' @param x1 The number of observed success in the sample 1.
+#' @param x1 The number of observed successes in the sample 1.
 #' @param n1 The size of the sample 1.
-#' @param x2 The number of observed success in the sample 2.
+#' @param x2 The number of observed successes in the sample 2.
 #' @param n2 The size of the sample 2.
-#' @param alternative The the direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
+#' @param alternative The direction of alternative hypothesized. Values can be "less", "greater", or "not_equal".
 #' @return A list containing the test statistic and the p-value.
 #' @examples
 #' \dontrun{
-#' two_prop_z_test(5, 10, 50, 100, 0.5,"not_equal")
+#' two_prop_z_test(5, 10, 50, 100,"not_equal")
 #' }
 #' @importFrom stats na.omit pchisq pnorm pt qnorm qt sd
 
